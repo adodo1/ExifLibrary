@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Warren Galyen</Authors>
+    <Company>Mechanika Design</Company>
+    <Description>Exif modification library</Description>
+    <PackageTags>exif;jpeg;image</PackageTags>
+    <RepositoryUrl>https://github.com/warrengalyen/exiflibrary</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageId>ExifLibrary</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
