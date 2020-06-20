@@ -17,5 +17,10 @@
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
+  
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
 
 </Project>
