@@ -77,7 +77,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 1, 1, new byte[] { mValue });
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.BYTE, 1, new byte[] { mValue });
             }
         }
     }
@@ -117,7 +117,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 1, (uint)mValue.Length, mValue);
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.BYTE, (uint)mValue.Length, mValue);
             }
         }
     }
@@ -148,7 +148,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 2, (uint)mValue.Length + 1, ExifBitConverter.GetBytes(mValue, true, Encoding));
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.ASCII, (uint)mValue.Length + 1, ExifBitConverter.GetBytes(mValue, true, Encoding));
             }
         }
     }
@@ -176,7 +176,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 3, 1, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder, BitConverterEx.SystemByteOrder));
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.SHORT, 1, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder, BitConverterEx.SystemByteOrder));
             }
         }
     }
@@ -217,7 +217,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 3, (uint)mValue.Length, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.SHORT, (uint)mValue.Length, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
             }
         }
     }
@@ -245,13 +245,13 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 4, 1, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder, BitConverterEx.SystemByteOrder));
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.LONG, 1, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder, BitConverterEx.SystemByteOrder));
             }
         }
     }
 
     /// <summary>
-    /// Represents an array of 16-bit unsigned integers. 
+    /// Represents an array of 32-bit unsigned integers. 
     /// (EXIF Specification: LONG with count > 1)
     /// </summary>
     public class ExifUIntArray : ExifProperty
@@ -286,7 +286,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 3, (uint)mValue.Length, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.LONG, (uint)mValue.Length, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
             }
         }
     }
@@ -327,7 +327,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 5, 1, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.RATIONAL, 1, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
             }
         }
     }
@@ -374,7 +374,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 5, (uint)mValue.Length, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.RATIONAL, (uint)mValue.Length, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
             }
         }
     }
@@ -414,7 +414,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 7, (uint)mValue.Length, mValue);
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.UNDEFINED, (uint)mValue.Length, mValue);
             }
         }
     }
@@ -442,7 +442,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 9, 1, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder, BitConverterEx.SystemByteOrder));
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.SLONG, 1, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder, BitConverterEx.SystemByteOrder));
             }
         }
     }
@@ -483,7 +483,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 9, (uint)mValue.Length, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.SLONG, (uint)mValue.Length, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
             }
         }
     }
@@ -524,7 +524,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 10, 1, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.SRATIONAL, 1, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
             }
         }
     }
@@ -571,7 +571,7 @@ namespace ExifLibrary
         {
             get
             {
-                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), 10, (uint)mValue.Length, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.SRATIONAL, (uint)mValue.Length, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
             }
         }
     }
