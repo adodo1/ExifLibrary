@@ -575,4 +575,73 @@ namespace ExifLibrary
             }
         }
     }
+
+    /// <summary>
+    /// Represents a 16-bit signed integer. (EXIF Specification: SHORT)
+    /// </summary>
+    public class ExifSShort : ExifProperty
+    {
+        protected short mValue;
+        protected override object _Value { get { return Value; } set { Value = Convert.ToInt16(value); } }
+        public new short Value { get { return mValue; } set { mValue = value; } }
+
+        static public implicit operator short(ExifSShort obj) { return obj.mValue; }
+
+        public override string ToString() { return mValue.ToString(); }
+
+        public ExifSShort(ExifTag tag, short value)
+            : base(tag)
+        {
+            mValue = value;
+        }
+
+        public override ExifInterOperability Interoperability
+        {
+            get
+            {
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.SSHORT, 1, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder, BitConverterEx.SystemByteOrder));
+            }
+        }
+    }
+
+    /// <summary>
+    /// Represents an array of 16-bit signed integers. 
+    /// (EXIF Specification: SHORT with count > 1)
+    /// </summary>
+    public class ExifSShortArray : ExifProperty
+    {
+        protected short[] mValue;
+        protected override object _Value { get { return Value; } set { Value = (short[])value; } }
+        public new short[] Value { get { return mValue; } set { mValue = value; } }
+
+        static public implicit operator short[](ExifSShortArray obj) { return obj.mValue; }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append('[');
+            foreach (ushort b in mValue)
+            {
+                sb.Append(b);
+                sb.Append(' ');
+            }
+            sb.Remove(sb.Length - 1, 1);
+            sb.Append(']');
+            return sb.ToString();
+        }
+
+        public ExifSShortArray(ExifTag tag, short[] value)
+            : base(tag)
+        {
+            mValue = value;
+        }
+
+        public override ExifInterOperability Interoperability
+        {
+            get
+            {
+                return new ExifInterOperability(ExifTagFactory.GetTagID(mTag), InterOpType.SSHORT, (uint)mValue.Length, ExifBitConverter.GetBytes(mValue, BitConverterEx.SystemByteOrder));
+            }
+        }
+    }
 }
