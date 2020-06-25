@@ -36,5 +36,15 @@
             Severity = severity;
             Message = message;
         }
+
+
+        /// <summary>
+        /// Returns a string that represents the current object.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return Message;
+        }
     }
 }
