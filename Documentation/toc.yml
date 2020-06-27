@@ -1,6 +1,5 @@
 
-- name: Articles
-  href: articles/
-- name: API Documentation
-  href: obj/api/
-  homepage: api/index.md
+- name: Documentation
+  href: combinedtoc/
+- name: Source Code
+  href: https://github.com/warrengalyen/exiflibrary
