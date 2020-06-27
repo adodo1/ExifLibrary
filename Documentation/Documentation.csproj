@@ -47,6 +47,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="articles\PropertyTypes.md" />
+    <None Include="articles\toc.yml" />
     <None Include="filterConfig.yml" />
     <None Include="index.md" />
     <None Include="packages.config" />
