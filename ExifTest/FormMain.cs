@@ -10,6 +10,7 @@ namespace ExifTest
     public partial class FormMain : Form
     {
         private ImageFile data;
+        private string imageFilename = null;
 
         public FormMain()
         {
@@ -32,11 +33,9 @@ namespace ExifTest
         private void ReadFile(string filename)
         {
             data = ImageFile.FromFile(filename);
+            imageFilename = filename;
 
             UpdateView();
-
-            this.Text = Path.GetFileName(filename) + " - Exif Test";
-            lblStatus.Text = Path.GetFileName(filename);
         }
 
         private void UpdateView()
@@ -81,6 +80,7 @@ namespace ExifTest
             {
                 lblThumbnail.Text = "Thumbnail: " + pbThumb.Image.Width.ToString() + "x" + pbThumb.Image.Height.ToString();
             }
+
             pgExif.SelectedObject = data;
 
             lvExif.Sort();
@@ -89,6 +89,18 @@ namespace ExifTest
             foreach (var err in data.Errors)
             {
                 txtErrors.Text += err.Message + Environment.NewLine;
+            }
+
+
+            if (imageFilename == null)
+            {
+                Text = "Exif Test";
+                lblStatus.Text = "Ready";
+            }
+            else
+            {
+                Text = Path.GetFileName(imageFilename) + " - Exif Test";
+                lblStatus.Text = Path.GetFileName(imageFilename);
             }
         }
 
@@ -206,9 +218,18 @@ namespace ExifTest
             {
                 fdSave.Filter = "PNG Images *.png|*.png";
             }
+            else if (data.Format == ImageFileFormat.GIF)
+            {
+                fdSave.Filter = "GIF Images *.gif|*.gif";
+            }
             else
             {
                 MessageBox.Show("Unknown image format", "Exif Test", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            if (imageFilename != null)
+            {
+                fdSave.FileName = imageFilename;
             }
 
             if (fdSave.ShowDialog() == DialogResult.OK)
