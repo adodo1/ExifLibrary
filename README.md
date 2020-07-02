@@ -36,4 +36,4 @@ file.Save("path_to_image");
 
 # Documentation #
 
-Please visit: http://warrengalyen.github.io/exiflibrary/
+Please visit: https://warrengalyen.github.io/ExifLibrary/
