@@ -5,6 +5,18 @@
   "files": [
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/GIFMetadata.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/GIFMetadata.html",
+          "hash": "9n6f5HTooxGwPA4D1QdF5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/JPEGMetadata.md",
       "output": {
         ".html": {
@@ -81,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "combinedtoc/toc.html",
-          "hash": "Yfjymug+j1/Dc0Rbuq0Nww=="
+          "hash": "He/yKcyn2D2Va9lF1PFutg=="
         }
       },
       "is_incremental": false,
@@ -357,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.ExifProperty.html",
-          "hash": "FM370mf6/zIfB/8RVE8Ppg=="
+          "hash": "eEXx7TQouNDDO8u5Mz6Hkw=="
         }
       },
       "is_incremental": false,
@@ -489,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.ExifTag.html",
-          "hash": "wY+Kd9H/FObNWUhLEaxXAg=="
+          "hash": "e+BhtVo2G4iTToj0o2/gAw=="
         }
       },
       "is_incremental": false,
@@ -665,6 +677,150 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFApplicationExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFApplicationExtension.html",
+          "hash": "vbk/o+sUk0kEqSKj3YjL+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFBlock.html",
+          "hash": "EXnNLxU4Fj+Ek3Kn1/8P+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFComment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFComment.html",
+          "hash": "ZXcqViE7B3iESh1hoXWmTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFCommentExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFCommentExtension.html",
+          "hash": "4eHI64siKCtMx0XxOAxdhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFExtensionBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFExtensionBlock.html",
+          "hash": "KqMBc0Gw5eq7tWIKsqCmaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFExtensionLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFExtensionLabel.html",
+          "hash": "eVv84PP0ZJoI42AVRAbP1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFFile.html",
+          "hash": "HQ+hzZlawDBuLauAcmftfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFGraphicControlExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFGraphicControlExtension.html",
+          "hash": "6s7o21UanVqK5UUFKwQkjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFImageDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFImageDescriptor.html",
+          "hash": "MllWzOnNsEp0bSpoV0WGXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFPlainTextExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFPlainTextExtension.html",
+          "hash": "6F2oyS4xXtLb3jAwksBBlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFSeparator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFSeparator.html",
+          "hash": "ZHNM4Kv2abm4aSbG1h+PAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.GIFTerminator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.GIFTerminator.html",
+          "hash": "ywF4bH7OZG/hqG7zApbdDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/ExifLibrary.GPSAltitudeRef.yml",
       "output": {
         ".html": {
@@ -825,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.IFD.html",
-          "hash": "1af7WC6SfYGhUcM/QJZjkw=="
+          "hash": "mb1A2wMvwfcNbLhiNvutEA=="
         }
       },
       "is_incremental": false,
@@ -861,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.ImageFile.html",
-          "hash": "M+7hMyR5DvBIiAC6HQfhZA=="
+          "hash": "ZSsgTkwNDoZXQCXLZusivw=="
         }
       },
       "is_incremental": false,
@@ -897,7 +1053,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.ImageFileFormat.html",
-          "hash": "36YGi85Fgr9A+bWQYz8rEg=="
+          "hash": "z5kcrOGCw/gCaKVyg5fCew=="
         }
       },
       "is_incremental": false,
@@ -993,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.JPEGFile.html",
-          "hash": "g9u8bcIpuvzY2lojJT9NrA=="
+          "hash": "NxgrI8xeyJEyENZooOW51Q=="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.MathEx.Fraction32.html",
-          "hash": "d0LQtQch3syIgUbugv+pkg=="
+          "hash": "/2+YiLEeWoVibcip6/5iSA=="
         }
       },
       "is_incremental": false,
@@ -1065,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.MathEx.UFraction32.html",
-          "hash": "UQBp7XzWH5oct54VQmiQ2Q=="
+          "hash": "T5xGc+k9ohJpjqPnOHwFMQ=="
         }
       },
       "is_incremental": false,
@@ -1077,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.MathEx.html",
-          "hash": "X9pwoQAyLfOTA3eWsBtifA=="
+          "hash": "6qJ0f+oLeYSiIqJd2onilw=="
         }
       },
       "is_incremental": false,
@@ -1114,6 +1270,18 @@
         ".html": {
           "relative_path": "obj/api/ExifLibrary.NotValidExifFileException.html",
           "hash": "PYhLmaUBBZM2FlL3Zh3tVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ExifLibrary.NotValidGIFFileException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/ExifLibrary.NotValidGIFFileException.html",
+          "hash": "FMQEXhvY98EZHnKJKXpmrQ=="
         }
       },
       "is_incremental": false,
@@ -1509,7 +1677,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.Utility.CRC32.html",
-          "hash": "JfeMVa2Tk2wzljm5i9spoQ=="
+          "hash": "iXZSG7fBBj6KCpEfnI3Rig=="
         }
       },
       "is_incremental": false,
@@ -1521,7 +1689,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.Utility.html",
-          "hash": "PYV854m9mkE5uVjhsJ9EFQ=="
+          "hash": "hsxuWPpgxVKz0OVMj5Nc5g=="
         }
       },
       "is_incremental": false,
@@ -1581,7 +1749,7 @@
       "output": {
         ".html": {
           "relative_path": "obj/api/ExifLibrary.html",
-          "hash": "AZpQ23FuEGB0JCS2+h33SA=="
+          "hash": "oVIGfcOcIdJyJgN5xKdGbg=="
         }
       },
       "is_incremental": false,
@@ -1636,13 +1804,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 7,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 125,
+          "total_file_count": 138,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
