@@ -5,17 +5,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Metadata Properties | ExifLibrary </title>
+    <title>Metadata Properties </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Metadata Properties | ExifLibrary ">
-    <meta name="generator" content="docfx 2.55.0.0">
+    <meta name="title" content="Metadata Properties ">
+    <meta name="generator" content="docfx 2.56.0.0">
     
-    <link rel="shortcut icon" href="../resources/icons/favicon.ico">
+    <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="../combinedtoc/toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
     
     
@@ -35,7 +35,7 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../resources/icons/logo.png" alt="">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -47,6 +47,14 @@
             </div>
           </div>
         </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
         
@@ -57,7 +65,7 @@
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-12">
+          <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="Articles.Properties">
 <h1 id="metadata-properties">Metadata Properties</h1>
 
@@ -91,7 +99,7 @@ foreach(var property in file.Properties)
 <p>Although the <a href="xref:ExifLibrary.ExifPropertyCollection">property collection</a> of an image file is a list, it also provides dictionary-like access to set properties by their tags:</p>
 <pre><code class="lang-cs">var file = ImageFile.FromFile(&quot;path_to_image&quot;);
 file.Set(ExifTag.ISOSpeedRatings, &lt;ushort&gt;200);
-</code></pre><p>The <a class="xref" href="../obj/api/ExifLibrary.ExifPropertyCollection-1.html#ExifLibrary_ExifPropertyCollection_1_Set__0_">Set(T)</a> method overwrites a property with the same tag or adds a new property if there is no existing property with the given tag. The <a class="xref" href="../obj/api/ExifLibrary.ExifPropertyCollection-1.html#ExifLibrary_ExifPropertyCollection_1_Add__0_">Add(T)</a> method, on the other hand, adds the given property without checking if there is an existing property. So, it can potentially create duplicate properties. This is compliant with the standard, but not probably what you want.
+</code></pre><p>The <a class="xref" href="../api/ExifLibrary.ExifPropertyCollection-1.html#ExifLibrary_ExifPropertyCollection_1_Set__0_">Set(T)</a> method overwrites a property with the same tag or adds a new property if there is no existing property with the given tag. The <a class="xref" href="../api/ExifLibrary.ExifPropertyCollection-1.html#ExifLibrary_ExifPropertyCollection_1_Add__0_">Add(T)</a> method, on the other hand, adds the given property without checking if there is an existing property. So, it can potentially create duplicate properties. This is compliant with the standard, but not probably what you want.
 Also, note the explicit cast to <code>ushort</code> in the above example. Without the cast, the data type would be <code>int</code>, which would be the wrong data type for the <code>ISOSpeedRatings</code> tag.</p>
 <h2 id="removing-properties">Removing Properties</h2>
 <p>Properties can be removed by index or tag:</p>
@@ -101,11 +109,26 @@ file.Properties.Remove(ExifTag.ISOSpeedRatings);
 </code></pre><p>The entire property collection can be cleared. Note however, this will potentially make the file unusable.</p>
 <pre><code class="lang-cs">var file = ImageFile.FromFile(&quot;path_to_image&quot;);
 file.Properties.Clear();
-</code></pre><p>A better alternative to clear metadata is to use the <a class="xref" href="../obj/api/ExifLibrary.ImageFile.html#ExifLibrary_ImageFile_Crush">Crush()</a> method which keeps essential properties:</p>
+</code></pre><p>A better alternative to clear metadata is to use the <a class="xref" href="../api/ExifLibrary.ImageFile.html#ExifLibrary_ImageFile_Crush">Crush()</a> method which keeps essential properties:</p>
 <pre><code class="lang-cs">var file = ImageFile.FromFile(&quot;path_to_image&quot;);
 file.Crush();
 </code></pre><p><code>Crush</code> uses a built-in whitelist.</p>
 </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/warrengalyen/ExifLibrary/blob/master/Documentation/articles/Properties.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
           </div>
         </div>
       </div>
@@ -117,8 +140,8 @@ file.Crush();
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright � 2019-2020 Warren Galyen
             
+            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

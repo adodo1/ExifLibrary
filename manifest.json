@@ -5,11 +5,23 @@
   "files": [
     {
       "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "+/nC1AED2ay5gRaB32hTAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/GIFMetadata.md",
       "output": {
         ".html": {
           "relative_path": "articles/GIFMetadata.html",
-          "hash": "oJ3f8JecOGPrNm47KTwGNA=="
+          "hash": "QmiwdigDck4VYpL0X1+t1A=="
         }
       },
       "is_incremental": false,
@@ -21,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/JPEGMetadata.html",
-          "hash": "nMl5evGYnfziJKEtpky+hA=="
+          "hash": "HhU/6Y5h8edF+dNwvUfkTA=="
         }
       },
       "is_incremental": false,
@@ -33,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/PNGMetadata.html",
-          "hash": "3EAM+z5BLf4/rFFmzExSAg=="
+          "hash": "eXnvkPchxbJzAQRX4NZ4Qg=="
         }
       },
       "is_incremental": false,
@@ -45,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/Properties.html",
-          "hash": "p8FsLJ22RYTLaycQ8RFPWg=="
+          "hash": "imQMTnqCUe54eDiPWkOQaQ=="
         }
       },
       "is_incremental": false,
@@ -57,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/ReadFile.html",
-          "hash": "tDrprPnWmYdPUKrh03RpgQ=="
+          "hash": "AwpfBuCGHTza/Mabw23jTA=="
         }
       },
       "is_incremental": false,
@@ -69,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/SaveFile.html",
-          "hash": "NEepm/+6OU3NxBRlTd+1Og=="
+          "hash": "1WTtKMplKXTXbTzAQD99cA=="
         }
       },
       "is_incremental": false,
@@ -81,7 +93,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/TIFFMetadata.html",
-          "hash": "Zaohx5zPwgDvs23zzCnj7Q=="
+          "hash": "cIHdBdYKkfG86WpBR2e63w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "Iaftn+0PumxidLxMtNCzhA=="
         }
       },
       "is_incremental": false,
@@ -89,11 +113,11 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "combinedtoc/toc.yml",
+      "source_relative_path": "articles/toc.md",
       "output": {
         ".html": {
-          "relative_path": "combinedtoc/toc.html",
-          "hash": "XEGFAGHSmjS96YHFc6GtiQ=="
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
         }
       },
       "is_incremental": false,
@@ -105,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Ay9Gi+TLndYnRqf6Ws5pdQ=="
+          "hash": "yiU1A/TWTuLb45ibafpeDw=="
         }
       },
       "is_incremental": false,
@@ -116,8 +140,8 @@
       "source_relative_path": "obj/api/ExifLibrary.BitConverterEx.ByteOrder.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.BitConverterEx.ByteOrder.html",
-          "hash": "pcLMdyNUK9V6rBtpBKvWkg=="
+          "relative_path": "api/ExifLibrary.BitConverterEx.ByteOrder.html",
+          "hash": "sT9PEYMVrhEebkSQAwe3cA=="
         }
       },
       "is_incremental": false,
@@ -128,8 +152,8 @@
       "source_relative_path": "obj/api/ExifLibrary.BitConverterEx.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.BitConverterEx.html",
-          "hash": "J2MVNIRLoOdx+wEFBQnsGQ=="
+          "relative_path": "api/ExifLibrary.BitConverterEx.html",
+          "hash": "T9sY4l3r/SgJFA0rO5z57w=="
         }
       },
       "is_incremental": false,
@@ -140,8 +164,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ColorSpace.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ColorSpace.html",
-          "hash": "Z3MJ7oRE2nFgIB1ITOcgyw=="
+          "relative_path": "api/ExifLibrary.ColorSpace.html",
+          "hash": "KSZOT2K0vysBbXJZHi0okQ=="
         }
       },
       "is_incremental": false,
@@ -152,8 +176,8 @@
       "source_relative_path": "obj/api/ExifLibrary.Compression.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.Compression.html",
-          "hash": "cFqpJVgGBQ+ImlnTwID/cA=="
+          "relative_path": "api/ExifLibrary.Compression.html",
+          "hash": "pthBpF1QAvVh7X0nP7LsJg=="
         }
       },
       "is_incremental": false,
@@ -164,8 +188,8 @@
       "source_relative_path": "obj/api/ExifLibrary.Contrast.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.Contrast.html",
-          "hash": "LFgCl8ypwYL/xGf8b9J83g=="
+          "relative_path": "api/ExifLibrary.Contrast.html",
+          "hash": "bxhNvB2je35IHimYz3Qg3g=="
         }
       },
       "is_incremental": false,
@@ -176,8 +200,8 @@
       "source_relative_path": "obj/api/ExifLibrary.CustomRendered.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.CustomRendered.html",
-          "hash": "2wwLU2LvYxRTDGk0CwYjOg=="
+          "relative_path": "api/ExifLibrary.CustomRendered.html",
+          "hash": "VwJtPFKi2cIX6mJPeDNrgg=="
         }
       },
       "is_incremental": false,
@@ -188,8 +212,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifAscii.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifAscii.html",
-          "hash": "P8Ram0vXqmmg3B0GyqRZsw=="
+          "relative_path": "api/ExifLibrary.ExifAscii.html",
+          "hash": "9eeSNZrjanax0h+GoY7lMw=="
         }
       },
       "is_incremental": false,
@@ -200,8 +224,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifBitConverter.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifBitConverter.html",
-          "hash": "OXlANRceTjbAYkcuxdBMpg=="
+          "relative_path": "api/ExifLibrary.ExifBitConverter.html",
+          "hash": "GWkjubH4Q6Rr8mGnNqUmUQ=="
         }
       },
       "is_incremental": false,
@@ -212,8 +236,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifByte.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifByte.html",
-          "hash": "s4J6dapRmPykob52rjAXTQ=="
+          "relative_path": "api/ExifLibrary.ExifByte.html",
+          "hash": "pkP8ARgDb3owE7bOSCWDUg=="
         }
       },
       "is_incremental": false,
@@ -224,8 +248,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifByteArray.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifByteArray.html",
-          "hash": "A4ObXyXBl+6klnkEb0pADw=="
+          "relative_path": "api/ExifLibrary.ExifByteArray.html",
+          "hash": "lffBm/CNzPR22JsEf24qkA=="
         }
       },
       "is_incremental": false,
@@ -236,8 +260,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifCircularSubjectArea.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifCircularSubjectArea.html",
-          "hash": "EPIdxsjyftKEHUNOvVUNXQ=="
+          "relative_path": "api/ExifLibrary.ExifCircularSubjectArea.html",
+          "hash": "XoztRuxJIcZKzK0hhgCHSw=="
         }
       },
       "is_incremental": false,
@@ -248,8 +272,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifDate.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifDate.html",
-          "hash": "kw4wUcx6nwCWiWwUx5uMTQ=="
+          "relative_path": "api/ExifLibrary.ExifDate.html",
+          "hash": "Q1aAxEblHYme6cCKO32rJA=="
         }
       },
       "is_incremental": false,
@@ -260,8 +284,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifDateTime.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifDateTime.html",
-          "hash": "0+sR/7nqYK3SThV/95T4TA=="
+          "relative_path": "api/ExifLibrary.ExifDateTime.html",
+          "hash": "MPhlaJMZ0zMmPaWm11qKHg=="
         }
       },
       "is_incremental": false,
@@ -272,8 +296,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifDouble.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifDouble.html",
-          "hash": "vWueSGNF5pWDiL11AXCbBg=="
+          "relative_path": "api/ExifLibrary.ExifDouble.html",
+          "hash": "zKTurqu1XK+RkWm4Li/+MQ=="
         }
       },
       "is_incremental": false,
@@ -284,8 +308,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifDoubleArray.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifDoubleArray.html",
-          "hash": "BtWxW1I3d5iOBtrWmSU05w=="
+          "relative_path": "api/ExifLibrary.ExifDoubleArray.html",
+          "hash": "ZS44mI3CxhJ1fl9i+Ml03Q=="
         }
       },
       "is_incremental": false,
@@ -296,8 +320,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifEncodedString.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifEncodedString.html",
-          "hash": "XS0ogmDu10vqBdmcJG5tuQ=="
+          "relative_path": "api/ExifLibrary.ExifEncodedString.html",
+          "hash": "TThEHFt4ZH98w09QOwzhuA=="
         }
       },
       "is_incremental": false,
@@ -308,8 +332,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifEnumProperty-1.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifEnumProperty-1.html",
-          "hash": "YOfpQJeUAVzbANhqfrmowQ=="
+          "relative_path": "api/ExifLibrary.ExifEnumProperty-1.html",
+          "hash": "jKoVup0awPSImNZwH7GHqA=="
         }
       },
       "is_incremental": false,
@@ -320,8 +344,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifFloat.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifFloat.html",
-          "hash": "Mbnr6/H4mKdGVrUjUSR6DQ=="
+          "relative_path": "api/ExifLibrary.ExifFloat.html",
+          "hash": "BFdsJNQisrLxZGD2nAAyLg=="
         }
       },
       "is_incremental": false,
@@ -332,8 +356,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifFloatArray.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifFloatArray.html",
-          "hash": "d1WBIx18pZ/6tyBjb/M/Gg=="
+          "relative_path": "api/ExifLibrary.ExifFloatArray.html",
+          "hash": "qx7pgHCgkCXOlYHba6GC7Q=="
         }
       },
       "is_incremental": false,
@@ -344,8 +368,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifInterOperability.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifInterOperability.html",
-          "hash": "SY8tVBkPip3cyRavvSMiVw=="
+          "relative_path": "api/ExifLibrary.ExifInterOperability.html",
+          "hash": "A/fhQlykcG88gxTumwiMRw=="
         }
       },
       "is_incremental": false,
@@ -356,8 +380,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifPointSubjectArea.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifPointSubjectArea.html",
-          "hash": "iUOHHXCVIPE385dy/hDNzg=="
+          "relative_path": "api/ExifLibrary.ExifPointSubjectArea.html",
+          "hash": "PiJokUbNe4giAyceX3mvxQ=="
         }
       },
       "is_incremental": false,
@@ -368,8 +392,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifProperty.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifProperty.html",
-          "hash": "eEXx7TQouNDDO8u5Mz6Hkw=="
+          "relative_path": "api/ExifLibrary.ExifProperty.html",
+          "hash": "EImPWGMscMl9VR8kN6+Tsw=="
         }
       },
       "is_incremental": false,
@@ -380,8 +404,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifPropertyCollection-1.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifPropertyCollection-1.html",
-          "hash": "FKVUf0fRofTctvf8dVMdOw=="
+          "relative_path": "api/ExifLibrary.ExifPropertyCollection-1.html",
+          "hash": "isBDcWT08ApbqAy6gcLXHg=="
         }
       },
       "is_incremental": false,
@@ -392,8 +416,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifRectangularSubjectArea.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifRectangularSubjectArea.html",
-          "hash": "eNsiIO8TufAVTvlU+RyXQA=="
+          "relative_path": "api/ExifLibrary.ExifRectangularSubjectArea.html",
+          "hash": "kaAXMxTYGoGrHd8hjg7i4Q=="
         }
       },
       "is_incremental": false,
@@ -404,8 +428,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifSByte.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifSByte.html",
-          "hash": "s06GTy/esCgftpNuuTUDaw=="
+          "relative_path": "api/ExifLibrary.ExifSByte.html",
+          "hash": "d8FhunpWAspYtRuzyVLB9A=="
         }
       },
       "is_incremental": false,
@@ -416,8 +440,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifSByteArray.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifSByteArray.html",
-          "hash": "Wv4jCmt9LuqRc1Rzv7AnYA=="
+          "relative_path": "api/ExifLibrary.ExifSByteArray.html",
+          "hash": "WCCsS1ftqKWzULjBVGPdGg=="
         }
       },
       "is_incremental": false,
@@ -428,8 +452,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifSInt.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifSInt.html",
-          "hash": "0+awitSEyWR7BWW9m4ASMQ=="
+          "relative_path": "api/ExifLibrary.ExifSInt.html",
+          "hash": "GmT6FNmcmdhy2EOz5by/Jw=="
         }
       },
       "is_incremental": false,
@@ -440,8 +464,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifSIntArray.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifSIntArray.html",
-          "hash": "VpIngowp6SNpLfYWy9Slpg=="
+          "relative_path": "api/ExifLibrary.ExifSIntArray.html",
+          "hash": "aoulZSKYQjJ/oOxjG+sNcQ=="
         }
       },
       "is_incremental": false,
@@ -452,8 +476,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifSRational.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifSRational.html",
-          "hash": "AYqSHofGwZaorOqpFLFFBQ=="
+          "relative_path": "api/ExifLibrary.ExifSRational.html",
+          "hash": "pmYFMd8ca1rkEDZ46+Og7g=="
         }
       },
       "is_incremental": false,
@@ -464,8 +488,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifSRationalArray.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifSRationalArray.html",
-          "hash": "Z2mPB26Qoc+P0niyAXHeYg=="
+          "relative_path": "api/ExifLibrary.ExifSRationalArray.html",
+          "hash": "vd8WCC6dZy8OtLzRz5Snlw=="
         }
       },
       "is_incremental": false,
@@ -476,8 +500,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifSShort.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifSShort.html",
-          "hash": "uz2pUfU2hnt7kkuuiPsCng=="
+          "relative_path": "api/ExifLibrary.ExifSShort.html",
+          "hash": "GKP4Tfus0h8YoS0c0AyboQ=="
         }
       },
       "is_incremental": false,
@@ -488,8 +512,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifSShortArray.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifSShortArray.html",
-          "hash": "z2EjMoo0CPeZ/D1SqSQjqw=="
+          "relative_path": "api/ExifLibrary.ExifSShortArray.html",
+          "hash": "GgbZ6LNNNfrpfLwNxv4eTA=="
         }
       },
       "is_incremental": false,
@@ -500,8 +524,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifTag.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifTag.html",
-          "hash": "e+BhtVo2G4iTToj0o2/gAw=="
+          "relative_path": "api/ExifLibrary.ExifTag.html",
+          "hash": "/XVj3t1rtYg0j2WGSdRwpQ=="
         }
       },
       "is_incremental": false,
@@ -512,8 +536,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifTagFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifTagFactory.html",
-          "hash": "Xpz1ghkhVMXn0E85ULjkLg=="
+          "relative_path": "api/ExifLibrary.ExifTagFactory.html",
+          "hash": "TJl+2iAgJfbIvYh6I3KrmA=="
         }
       },
       "is_incremental": false,
@@ -524,8 +548,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifUInt.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifUInt.html",
-          "hash": "YkyuLTKPon/SRNiNfaH90g=="
+          "relative_path": "api/ExifLibrary.ExifUInt.html",
+          "hash": "T4wG8rnnhQwU8BhaG/qxEg=="
         }
       },
       "is_incremental": false,
@@ -536,8 +560,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifUIntArray.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifUIntArray.html",
-          "hash": "ATddKquXrN0RhmW1kV7I3A=="
+          "relative_path": "api/ExifLibrary.ExifUIntArray.html",
+          "hash": "1W8ZjBhYSLIL6WosWBTd2Q=="
         }
       },
       "is_incremental": false,
@@ -548,8 +572,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifURational.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifURational.html",
-          "hash": "Kew7WQ6hBCUHOClnCRbCkA=="
+          "relative_path": "api/ExifLibrary.ExifURational.html",
+          "hash": "nP9fNisC8PdDonD/ollJ7w=="
         }
       },
       "is_incremental": false,
@@ -560,8 +584,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifURationalArray.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifURationalArray.html",
-          "hash": "29nj/pFwJPcmdeh57OKvMQ=="
+          "relative_path": "api/ExifLibrary.ExifURationalArray.html",
+          "hash": "Nr/puea5ITRzmNzB4mMKMw=="
         }
       },
       "is_incremental": false,
@@ -572,8 +596,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifUShort.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifUShort.html",
-          "hash": "b8xJSN4bXyTX6F9l6AqhFg=="
+          "relative_path": "api/ExifLibrary.ExifUShort.html",
+          "hash": "rmveM6TzwuHcO9e4p5Mhnw=="
         }
       },
       "is_incremental": false,
@@ -584,8 +608,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifUShortArray.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifUShortArray.html",
-          "hash": "5R9gFc2DJQD7MsPE7XD5gg=="
+          "relative_path": "api/ExifLibrary.ExifUShortArray.html",
+          "hash": "r05sL++yv7Cel3/+GV4tJw=="
         }
       },
       "is_incremental": false,
@@ -596,8 +620,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifUndefined.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifUndefined.html",
-          "hash": "uprLslUTRImGwfNRbozMPg=="
+          "relative_path": "api/ExifLibrary.ExifUndefined.html",
+          "hash": "IpFLp7knQxDh9Y8cTwIFOg=="
         }
       },
       "is_incremental": false,
@@ -608,8 +632,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExifVersion.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExifVersion.html",
-          "hash": "b1Sw+OuEt9e9Ai/QmRaytw=="
+          "relative_path": "api/ExifLibrary.ExifVersion.html",
+          "hash": "D3Sznj5fr3z/wkWzg09SkQ=="
         }
       },
       "is_incremental": false,
@@ -620,8 +644,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExposureMode.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExposureMode.html",
-          "hash": "tKGu+BgjqxaM0Pkvis9OGw=="
+          "relative_path": "api/ExifLibrary.ExposureMode.html",
+          "hash": "OdECGoGfwRj6OzM9CmoAcw=="
         }
       },
       "is_incremental": false,
@@ -632,8 +656,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ExposureProgram.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ExposureProgram.html",
-          "hash": "2C5Gk+o/CwZgB4llLQATxA=="
+          "relative_path": "api/ExifLibrary.ExposureProgram.html",
+          "hash": "rUy3mccQM42N7yAcs1/iAg=="
         }
       },
       "is_incremental": false,
@@ -644,8 +668,8 @@
       "source_relative_path": "obj/api/ExifLibrary.FileSource.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.FileSource.html",
-          "hash": "fqJ2PozBQ0UCVtPlBs6f0w=="
+          "relative_path": "api/ExifLibrary.FileSource.html",
+          "hash": "Tamw9M/m1YkV5EkoPYZ4hA=="
         }
       },
       "is_incremental": false,
@@ -656,8 +680,8 @@
       "source_relative_path": "obj/api/ExifLibrary.FillOrder.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.FillOrder.html",
-          "hash": "WLGIJsZPQRnx9QqTqQmfew=="
+          "relative_path": "api/ExifLibrary.FillOrder.html",
+          "hash": "hL6fqOrLtjUYx00k8fjNdw=="
         }
       },
       "is_incremental": false,
@@ -668,8 +692,8 @@
       "source_relative_path": "obj/api/ExifLibrary.Flash.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.Flash.html",
-          "hash": "MlXjxQyGkR/JDiQNcMlDVQ=="
+          "relative_path": "api/ExifLibrary.Flash.html",
+          "hash": "TQFtKei55WHhFr5womCNug=="
         }
       },
       "is_incremental": false,
@@ -680,8 +704,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFApplicationExtension.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFApplicationExtension.html",
-          "hash": "vbk/o+sUk0kEqSKj3YjL+g=="
+          "relative_path": "api/ExifLibrary.GIFApplicationExtension.html",
+          "hash": "4f+YIo+A0mqgu2UGg/EflQ=="
         }
       },
       "is_incremental": false,
@@ -692,8 +716,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFBlock.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFBlock.html",
-          "hash": "EXnNLxU4Fj+Ek3Kn1/8P+g=="
+          "relative_path": "api/ExifLibrary.GIFBlock.html",
+          "hash": "RxgVdmUc4VReBh36Q1WNqg=="
         }
       },
       "is_incremental": false,
@@ -704,8 +728,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFComment.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFComment.html",
-          "hash": "ZXcqViE7B3iESh1hoXWmTw=="
+          "relative_path": "api/ExifLibrary.GIFComment.html",
+          "hash": "kbqwLvxjjvveZFl5GYNaZw=="
         }
       },
       "is_incremental": false,
@@ -716,8 +740,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFCommentExtension.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFCommentExtension.html",
-          "hash": "4eHI64siKCtMx0XxOAxdhg=="
+          "relative_path": "api/ExifLibrary.GIFCommentExtension.html",
+          "hash": "g2/MiJzzxRWFE+qfmCRd6g=="
         }
       },
       "is_incremental": false,
@@ -728,8 +752,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFExtensionBlock.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFExtensionBlock.html",
-          "hash": "KqMBc0Gw5eq7tWIKsqCmaQ=="
+          "relative_path": "api/ExifLibrary.GIFExtensionBlock.html",
+          "hash": "RUi7cnNi4kML57wb+3Mbqg=="
         }
       },
       "is_incremental": false,
@@ -740,8 +764,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFExtensionLabel.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFExtensionLabel.html",
-          "hash": "eVv84PP0ZJoI42AVRAbP1A=="
+          "relative_path": "api/ExifLibrary.GIFExtensionLabel.html",
+          "hash": "RhFfFMyjF/9BApxjWIdi4A=="
         }
       },
       "is_incremental": false,
@@ -752,8 +776,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFFile.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFFile.html",
-          "hash": "HQ+hzZlawDBuLauAcmftfQ=="
+          "relative_path": "api/ExifLibrary.GIFFile.html",
+          "hash": "8LoZGZHWrsA8E81LOQndUg=="
         }
       },
       "is_incremental": false,
@@ -764,8 +788,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFGraphicControlExtension.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFGraphicControlExtension.html",
-          "hash": "6s7o21UanVqK5UUFKwQkjw=="
+          "relative_path": "api/ExifLibrary.GIFGraphicControlExtension.html",
+          "hash": "MQVJ4+PfrG0mL7OW2G3Drg=="
         }
       },
       "is_incremental": false,
@@ -776,8 +800,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFImageDescriptor.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFImageDescriptor.html",
-          "hash": "MllWzOnNsEp0bSpoV0WGXQ=="
+          "relative_path": "api/ExifLibrary.GIFImageDescriptor.html",
+          "hash": "7sPCDhdiYB5nj07gSVV8uQ=="
         }
       },
       "is_incremental": false,
@@ -788,8 +812,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFPlainTextExtension.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFPlainTextExtension.html",
-          "hash": "6F2oyS4xXtLb3jAwksBBlg=="
+          "relative_path": "api/ExifLibrary.GIFPlainTextExtension.html",
+          "hash": "+t5VaxDjxTZrKMep46ZWpw=="
         }
       },
       "is_incremental": false,
@@ -800,8 +824,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFSeparator.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFSeparator.html",
-          "hash": "ZHNM4Kv2abm4aSbG1h+PAg=="
+          "relative_path": "api/ExifLibrary.GIFSeparator.html",
+          "hash": "cQA4pEMw22QxGWPXFhn3mg=="
         }
       },
       "is_incremental": false,
@@ -812,8 +836,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GIFTerminator.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GIFTerminator.html",
-          "hash": "ywF4bH7OZG/hqG7zApbdDw=="
+          "relative_path": "api/ExifLibrary.GIFTerminator.html",
+          "hash": "11fznMMWbVGV6zxYiJDDfw=="
         }
       },
       "is_incremental": false,
@@ -824,8 +848,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GPSAltitudeRef.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GPSAltitudeRef.html",
-          "hash": "ZH90R2GX3jAwXocb5Rgauw=="
+          "relative_path": "api/ExifLibrary.GPSAltitudeRef.html",
+          "hash": "rpHovL34XeZlbMZO7zZydw=="
         }
       },
       "is_incremental": false,
@@ -836,8 +860,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GPSDifferential.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GPSDifferential.html",
-          "hash": "bF9i+RtSZiwJcj5j/C6kCQ=="
+          "relative_path": "api/ExifLibrary.GPSDifferential.html",
+          "hash": "zyGs7Xghf9OfaaJOTg+LSg=="
         }
       },
       "is_incremental": false,
@@ -848,8 +872,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GPSDirectionRef.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GPSDirectionRef.html",
-          "hash": "c5DPucqVzErW6VN2AFjFAA=="
+          "relative_path": "api/ExifLibrary.GPSDirectionRef.html",
+          "hash": "n2rKmsaet0Xt+j/rFXu3FQ=="
         }
       },
       "is_incremental": false,
@@ -860,8 +884,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GPSDistanceRef.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GPSDistanceRef.html",
-          "hash": "N3V1IWINBQDh0v8lWcSc2g=="
+          "relative_path": "api/ExifLibrary.GPSDistanceRef.html",
+          "hash": "JzC/eCyjjSToEmbCOf428w=="
         }
       },
       "is_incremental": false,
@@ -872,8 +896,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GPSLatitudeLongitude.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GPSLatitudeLongitude.html",
-          "hash": "tx2ORib0b7my54bUVi3/zw=="
+          "relative_path": "api/ExifLibrary.GPSLatitudeLongitude.html",
+          "hash": "5zyP+ox11sI7A3h4P4IfDA=="
         }
       },
       "is_incremental": false,
@@ -884,8 +908,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GPSLatitudeRef.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GPSLatitudeRef.html",
-          "hash": "nP0VQMUiYkR0OLlHV7GwQg=="
+          "relative_path": "api/ExifLibrary.GPSLatitudeRef.html",
+          "hash": "35+RXLQgDUpTsGIZ963y3Q=="
         }
       },
       "is_incremental": false,
@@ -896,8 +920,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GPSLongitudeRef.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GPSLongitudeRef.html",
-          "hash": "vOg4sbkT024tlKGs2Rgzjg=="
+          "relative_path": "api/ExifLibrary.GPSLongitudeRef.html",
+          "hash": "6AhTSeq71sYlFQM8y9+/Qg=="
         }
       },
       "is_incremental": false,
@@ -908,8 +932,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GPSMeasureMode.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GPSMeasureMode.html",
-          "hash": "OP631xcS/X2c94RKvyQ86w=="
+          "relative_path": "api/ExifLibrary.GPSMeasureMode.html",
+          "hash": "3npmsokT4BhTHG52UsYpzA=="
         }
       },
       "is_incremental": false,
@@ -920,8 +944,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GPSSpeedRef.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GPSSpeedRef.html",
-          "hash": "zAjm7iBYxoKatgCVSVmVEw=="
+          "relative_path": "api/ExifLibrary.GPSSpeedRef.html",
+          "hash": "a+iKRvoluVd/mfJ2jxSRwA=="
         }
       },
       "is_incremental": false,
@@ -932,8 +956,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GPSStatus.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GPSStatus.html",
-          "hash": "Ab9q3J1ONBqup84V0VcVRw=="
+          "relative_path": "api/ExifLibrary.GPSStatus.html",
+          "hash": "bTdt1Uz5Oorn4keu8TWhuw=="
         }
       },
       "is_incremental": false,
@@ -944,8 +968,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GPSTimeStamp.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GPSTimeStamp.html",
-          "hash": "Rq/wW2NdNHB5R9XySJ2EVQ=="
+          "relative_path": "api/ExifLibrary.GPSTimeStamp.html",
+          "hash": "M3tvawRjXMzQ0Eeo2rPU/Q=="
         }
       },
       "is_incremental": false,
@@ -956,8 +980,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GainControl.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GainControl.html",
-          "hash": "fUM9myt9ersiq3CfeI4FCQ=="
+          "relative_path": "api/ExifLibrary.GainControl.html",
+          "hash": "Do2MWUyRSB1S5B+pa2yPLQ=="
         }
       },
       "is_incremental": false,
@@ -968,8 +992,8 @@
       "source_relative_path": "obj/api/ExifLibrary.GrayResponseUnit.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.GrayResponseUnit.html",
-          "hash": "0wHHHclj3u0WksCAgplvBw=="
+          "relative_path": "api/ExifLibrary.GrayResponseUnit.html",
+          "hash": "KoozanWG++MDHQjYtWtl3A=="
         }
       },
       "is_incremental": false,
@@ -980,8 +1004,8 @@
       "source_relative_path": "obj/api/ExifLibrary.IFD.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.IFD.html",
-          "hash": "mb1A2wMvwfcNbLhiNvutEA=="
+          "relative_path": "api/ExifLibrary.IFD.html",
+          "hash": "dtkFVgLbNdBqxpPfUa6ing=="
         }
       },
       "is_incremental": false,
@@ -992,8 +1016,8 @@
       "source_relative_path": "obj/api/ExifLibrary.IFD0IsEmptyException.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.IFD0IsEmptyException.html",
-          "hash": "+QPI5YB0MxA4ki00snJgRQ=="
+          "relative_path": "api/ExifLibrary.IFD0IsEmptyException.html",
+          "hash": "9eKLQuWg6U8uCIzVUGC1Nw=="
         }
       },
       "is_incremental": false,
@@ -1004,8 +1028,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ImageError.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ImageError.html",
-          "hash": "H32MeGLL6+XAfLsUxDKm/A=="
+          "relative_path": "api/ExifLibrary.ImageError.html",
+          "hash": "CvQfYlaf46cLcqjeE2CzmA=="
         }
       },
       "is_incremental": false,
@@ -1016,8 +1040,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ImageFile.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ImageFile.html",
-          "hash": "ZSsgTkwNDoZXQCXLZusivw=="
+          "relative_path": "api/ExifLibrary.ImageFile.html",
+          "hash": "Jyc5z9N5iOf+s+N1gK74cw=="
         }
       },
       "is_incremental": false,
@@ -1028,8 +1052,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ImageFileDirectory.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ImageFileDirectory.html",
-          "hash": "laFnYHlT+rI2/8YUNS5zMw=="
+          "relative_path": "api/ExifLibrary.ImageFileDirectory.html",
+          "hash": "NzOINlvkUQby5X14DD3ajQ=="
         }
       },
       "is_incremental": false,
@@ -1040,8 +1064,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ImageFileDirectoryEntry.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ImageFileDirectoryEntry.html",
-          "hash": "+lYJJYCbxLC+qer/zP6qYw=="
+          "relative_path": "api/ExifLibrary.ImageFileDirectoryEntry.html",
+          "hash": "OGeIakpqPT3F5qRTozdKtQ=="
         }
       },
       "is_incremental": false,
@@ -1052,8 +1076,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ImageFileFormat.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ImageFileFormat.html",
-          "hash": "z5kcrOGCw/gCaKVyg5fCew=="
+          "relative_path": "api/ExifLibrary.ImageFileFormat.html",
+          "hash": "r56KFkRn3a3wd+b7GW6+Bg=="
         }
       },
       "is_incremental": false,
@@ -1064,8 +1088,8 @@
       "source_relative_path": "obj/api/ExifLibrary.InterOpType.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.InterOpType.html",
-          "hash": "6hVbWsdA6lOOSdz6vVjkJg=="
+          "relative_path": "api/ExifLibrary.InterOpType.html",
+          "hash": "Pat/jj4zMF1Wubb3EseZWA=="
         }
       },
       "is_incremental": false,
@@ -1076,8 +1100,8 @@
       "source_relative_path": "obj/api/ExifLibrary.JFIFDensityUnit.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.JFIFDensityUnit.html",
-          "hash": "SDRf3dqanNC/3N761nuI0Q=="
+          "relative_path": "api/ExifLibrary.JFIFDensityUnit.html",
+          "hash": "4cKrOxremdsKd8tGPuccMA=="
         }
       },
       "is_incremental": false,
@@ -1088,8 +1112,8 @@
       "source_relative_path": "obj/api/ExifLibrary.JFIFExtension.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.JFIFExtension.html",
-          "hash": "NezFTqj8naa6nsPb0/7s1g=="
+          "relative_path": "api/ExifLibrary.JFIFExtension.html",
+          "hash": "mX1dVao36C123SE7syu8UA=="
         }
       },
       "is_incremental": false,
@@ -1100,8 +1124,8 @@
       "source_relative_path": "obj/api/ExifLibrary.JFIFThumbnail.ImageFormat.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.JFIFThumbnail.ImageFormat.html",
-          "hash": "AjOADs6s76GsFUNxxGB80w=="
+          "relative_path": "api/ExifLibrary.JFIFThumbnail.ImageFormat.html",
+          "hash": "w3rjrvDE6tdAP5pwLcLamQ=="
         }
       },
       "is_incremental": false,
@@ -1112,8 +1136,8 @@
       "source_relative_path": "obj/api/ExifLibrary.JFIFThumbnail.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.JFIFThumbnail.html",
-          "hash": "ubUFaUuLG7E5MDcbUEgODQ=="
+          "relative_path": "api/ExifLibrary.JFIFThumbnail.html",
+          "hash": "uJFzVUI2oCbgM3DlbLNbwQ=="
         }
       },
       "is_incremental": false,
@@ -1124,8 +1148,8 @@
       "source_relative_path": "obj/api/ExifLibrary.JFIFThumbnailProperty.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.JFIFThumbnailProperty.html",
-          "hash": "VDmCAdm6Gncx+bijVHFSPQ=="
+          "relative_path": "api/ExifLibrary.JFIFThumbnailProperty.html",
+          "hash": "zVGOhUhJYZnQCmJAG3eG8g=="
         }
       },
       "is_incremental": false,
@@ -1136,8 +1160,8 @@
       "source_relative_path": "obj/api/ExifLibrary.JFIFVersion.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.JFIFVersion.html",
-          "hash": "joN1bdMYEdQfbcFEMPrScg=="
+          "relative_path": "api/ExifLibrary.JFIFVersion.html",
+          "hash": "gThe/0W9rvlSq03D9AfAFg=="
         }
       },
       "is_incremental": false,
@@ -1148,8 +1172,8 @@
       "source_relative_path": "obj/api/ExifLibrary.JPEGFile.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.JPEGFile.html",
-          "hash": "NxgrI8xeyJEyENZooOW51Q=="
+          "relative_path": "api/ExifLibrary.JPEGFile.html",
+          "hash": "wzd192pgtNO8rHUhiRD7AA=="
         }
       },
       "is_incremental": false,
@@ -1160,8 +1184,8 @@
       "source_relative_path": "obj/api/ExifLibrary.JPEGMarker.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.JPEGMarker.html",
-          "hash": "5UpAAGbA8UHZm8q/d7JJlw=="
+          "relative_path": "api/ExifLibrary.JPEGMarker.html",
+          "hash": "weL2jm/E+I2aQjJWNbRKMA=="
         }
       },
       "is_incremental": false,
@@ -1172,8 +1196,8 @@
       "source_relative_path": "obj/api/ExifLibrary.JPEGSection.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.JPEGSection.html",
-          "hash": "ucuzyOXkl0UJ7vfkooqOpw=="
+          "relative_path": "api/ExifLibrary.JPEGSection.html",
+          "hash": "dUwA1A0QU85jKTGOTUv3fg=="
         }
       },
       "is_incremental": false,
@@ -1184,8 +1208,8 @@
       "source_relative_path": "obj/api/ExifLibrary.LensSpecification.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.LensSpecification.html",
-          "hash": "6U8s95dYgRDig9pp0Mc/AQ=="
+          "relative_path": "api/ExifLibrary.LensSpecification.html",
+          "hash": "ySxTS0OEBULP8JzS+rcX/g=="
         }
       },
       "is_incremental": false,
@@ -1196,8 +1220,8 @@
       "source_relative_path": "obj/api/ExifLibrary.LightSource.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.LightSource.html",
-          "hash": "kBRNiJB4tDIBNwWcT3ufSg=="
+          "relative_path": "api/ExifLibrary.LightSource.html",
+          "hash": "tQBVwseQh/avOPpH5arGRQ=="
         }
       },
       "is_incremental": false,
@@ -1208,8 +1232,8 @@
       "source_relative_path": "obj/api/ExifLibrary.MathEx.Fraction32.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.MathEx.Fraction32.html",
-          "hash": "/2+YiLEeWoVibcip6/5iSA=="
+          "relative_path": "api/ExifLibrary.MathEx.Fraction32.html",
+          "hash": "/mTzB9shewk9dww03VUjnQ=="
         }
       },
       "is_incremental": false,
@@ -1220,8 +1244,8 @@
       "source_relative_path": "obj/api/ExifLibrary.MathEx.UFraction32.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.MathEx.UFraction32.html",
-          "hash": "T5xGc+k9ohJpjqPnOHwFMQ=="
+          "relative_path": "api/ExifLibrary.MathEx.UFraction32.html",
+          "hash": "I1DPjTl03bhbg92ZF4+7yw=="
         }
       },
       "is_incremental": false,
@@ -1232,8 +1256,8 @@
       "source_relative_path": "obj/api/ExifLibrary.MathEx.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.MathEx.html",
-          "hash": "6qJ0f+oLeYSiIqJd2onilw=="
+          "relative_path": "api/ExifLibrary.MathEx.html",
+          "hash": "uLlgTtIdKHZ5DE2WKQKnKA=="
         }
       },
       "is_incremental": false,
@@ -1244,8 +1268,8 @@
       "source_relative_path": "obj/api/ExifLibrary.MeteringMode.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.MeteringMode.html",
-          "hash": "KGoOdn4pRcZWI/Rhn0+wgQ=="
+          "relative_path": "api/ExifLibrary.MeteringMode.html",
+          "hash": "edM6VA78vLjo+2+Q8Tynuw=="
         }
       },
       "is_incremental": false,
@@ -1256,8 +1280,8 @@
       "source_relative_path": "obj/api/ExifLibrary.NewSubfileType.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.NewSubfileType.html",
-          "hash": "MvT/4tsZ62jvletoaQV1Hg=="
+          "relative_path": "api/ExifLibrary.NewSubfileType.html",
+          "hash": "vek8Q5MhK4NaW0LCiVx46w=="
         }
       },
       "is_incremental": false,
@@ -1268,8 +1292,8 @@
       "source_relative_path": "obj/api/ExifLibrary.NotValidExifFileException.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.NotValidExifFileException.html",
-          "hash": "PYhLmaUBBZM2FlL3Zh3tVg=="
+          "relative_path": "api/ExifLibrary.NotValidExifFileException.html",
+          "hash": "jo1XS/DEXQE82aiezb8AxQ=="
         }
       },
       "is_incremental": false,
@@ -1280,8 +1304,8 @@
       "source_relative_path": "obj/api/ExifLibrary.NotValidGIFFileException.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.NotValidGIFFileException.html",
-          "hash": "FMQEXhvY98EZHnKJKXpmrQ=="
+          "relative_path": "api/ExifLibrary.NotValidGIFFileException.html",
+          "hash": "SAjZ7vDm5G7urkucRkxipw=="
         }
       },
       "is_incremental": false,
@@ -1292,8 +1316,8 @@
       "source_relative_path": "obj/api/ExifLibrary.NotValidImageFileException.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.NotValidImageFileException.html",
-          "hash": "veIuS0tw7eIbVSLZv7W3Sg=="
+          "relative_path": "api/ExifLibrary.NotValidImageFileException.html",
+          "hash": "U21nndDe+Q4Z5vVpITPmNQ=="
         }
       },
       "is_incremental": false,
@@ -1304,8 +1328,8 @@
       "source_relative_path": "obj/api/ExifLibrary.NotValidJPEGFileException.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.NotValidJPEGFileException.html",
-          "hash": "b7D/xpi02kEv0jEDvwiWPA=="
+          "relative_path": "api/ExifLibrary.NotValidJPEGFileException.html",
+          "hash": "b9XwhsZrKiL6rLqiF6QLMQ=="
         }
       },
       "is_incremental": false,
@@ -1316,8 +1340,8 @@
       "source_relative_path": "obj/api/ExifLibrary.NotValidPNGFileException.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.NotValidPNGFileException.html",
-          "hash": "rxLHEfUWY38QT3KhkX8arA=="
+          "relative_path": "api/ExifLibrary.NotValidPNGFileException.html",
+          "hash": "sYeZ/MO9x4Oe/LZ5JdzUww=="
         }
       },
       "is_incremental": false,
@@ -1328,8 +1352,8 @@
       "source_relative_path": "obj/api/ExifLibrary.NotValidTIFFHeader.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.NotValidTIFFHeader.html",
-          "hash": "+x6khF3cmKvc3G/h9Hc/vg=="
+          "relative_path": "api/ExifLibrary.NotValidTIFFHeader.html",
+          "hash": "iQEqmle4k1OFoo8hJ94b5g=="
         }
       },
       "is_incremental": false,
@@ -1340,8 +1364,8 @@
       "source_relative_path": "obj/api/ExifLibrary.NotValidTIFFileException.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.NotValidTIFFileException.html",
-          "hash": "TSfzPQ7E33Sv934GsrV6Ag=="
+          "relative_path": "api/ExifLibrary.NotValidTIFFileException.html",
+          "hash": "gUZuq+9X3a9z1AHcoEV/Hw=="
         }
       },
       "is_incremental": false,
@@ -1352,8 +1376,8 @@
       "source_relative_path": "obj/api/ExifLibrary.Orientation.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.Orientation.html",
-          "hash": "Nh8WX1xAUSycBmwXX67ycQ=="
+          "relative_path": "api/ExifLibrary.Orientation.html",
+          "hash": "2fbXiVYSuGhvjaEW4xC++Q=="
         }
       },
       "is_incremental": false,
@@ -1364,8 +1388,8 @@
       "source_relative_path": "obj/api/ExifLibrary.PNGChunk.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.PNGChunk.html",
-          "hash": "U0eRNcKaicePjtyroshs8A=="
+          "relative_path": "api/ExifLibrary.PNGChunk.html",
+          "hash": "rFSmbaOGUmDrOFIAIP/maQ=="
         }
       },
       "is_incremental": false,
@@ -1376,8 +1400,8 @@
       "source_relative_path": "obj/api/ExifLibrary.PNGFile.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.PNGFile.html",
-          "hash": "jph1IR2sux7qN+resTEX8g=="
+          "relative_path": "api/ExifLibrary.PNGFile.html",
+          "hash": "MpBc11EzTZL7imnNMybtVA=="
         }
       },
       "is_incremental": false,
@@ -1388,8 +1412,8 @@
       "source_relative_path": "obj/api/ExifLibrary.PNGInternationalText.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.PNGInternationalText.html",
-          "hash": "nuC0ahqBVfdvsnG5xPortA=="
+          "relative_path": "api/ExifLibrary.PNGInternationalText.html",
+          "hash": "hfq/nrxh1wuE4Tn7G37zow=="
         }
       },
       "is_incremental": false,
@@ -1400,8 +1424,8 @@
       "source_relative_path": "obj/api/ExifLibrary.PNGText.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.PNGText.html",
-          "hash": "mvaqz+5xpb9aDdBX1VTpTg=="
+          "relative_path": "api/ExifLibrary.PNGText.html",
+          "hash": "avCj5k2vSf8wb6kFC0372A=="
         }
       },
       "is_incremental": false,
@@ -1412,8 +1436,8 @@
       "source_relative_path": "obj/api/ExifLibrary.PNGTimeStamp.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.PNGTimeStamp.html",
-          "hash": "dF0y46EVnZPSGo3t1p8Btg=="
+          "relative_path": "api/ExifLibrary.PNGTimeStamp.html",
+          "hash": "XQW3FysyyEEOfkIJDAJJhw=="
         }
       },
       "is_incremental": false,
@@ -1424,8 +1448,8 @@
       "source_relative_path": "obj/api/ExifLibrary.PhotometricInterpretation.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.PhotometricInterpretation.html",
-          "hash": "ZxxDcIRafNLRtP4iVVy04w=="
+          "relative_path": "api/ExifLibrary.PhotometricInterpretation.html",
+          "hash": "xYxlXhaHiya+Dr6jIzmO6A=="
         }
       },
       "is_incremental": false,
@@ -1436,8 +1460,8 @@
       "source_relative_path": "obj/api/ExifLibrary.PlanarConfiguration.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.PlanarConfiguration.html",
-          "hash": "dhEaEcwtGYKUotJBcSSIAw=="
+          "relative_path": "api/ExifLibrary.PlanarConfiguration.html",
+          "hash": "38W1JKcBJZfbK/2aobbmTQ=="
         }
       },
       "is_incremental": false,
@@ -1448,8 +1472,8 @@
       "source_relative_path": "obj/api/ExifLibrary.ResolutionUnit.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.ResolutionUnit.html",
-          "hash": "N8DFLD/wB7ntZU2cPQjiKQ=="
+          "relative_path": "api/ExifLibrary.ResolutionUnit.html",
+          "hash": "PhJp8P+wO7Ytlgf1TzvUPw=="
         }
       },
       "is_incremental": false,
@@ -1460,8 +1484,8 @@
       "source_relative_path": "obj/api/ExifLibrary.Saturation.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.Saturation.html",
-          "hash": "SNVa5OHwQ8QGtdJZfdRoPg=="
+          "relative_path": "api/ExifLibrary.Saturation.html",
+          "hash": "SqrQwIZ88vSS2Tp0dGH8LQ=="
         }
       },
       "is_incremental": false,
@@ -1472,8 +1496,8 @@
       "source_relative_path": "obj/api/ExifLibrary.SceneCaptureType.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.SceneCaptureType.html",
-          "hash": "jZID+Aa8gLqFA4yhmVG5bg=="
+          "relative_path": "api/ExifLibrary.SceneCaptureType.html",
+          "hash": "8vOCgeSsGTLyyvhnsidUJQ=="
         }
       },
       "is_incremental": false,
@@ -1484,8 +1508,8 @@
       "source_relative_path": "obj/api/ExifLibrary.SceneType.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.SceneType.html",
-          "hash": "4vinVwX0wAwn00QTAzATVQ=="
+          "relative_path": "api/ExifLibrary.SceneType.html",
+          "hash": "CO0NDbT8OG8EB4CB3WM4tA=="
         }
       },
       "is_incremental": false,
@@ -1496,8 +1520,8 @@
       "source_relative_path": "obj/api/ExifLibrary.SectionExceeds64KBException.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.SectionExceeds64KBException.html",
-          "hash": "QfR5AhVI3EsM8xzyUfTSrg=="
+          "relative_path": "api/ExifLibrary.SectionExceeds64KBException.html",
+          "hash": "Sj6HF2skfb2itw4yXDubNg=="
         }
       },
       "is_incremental": false,
@@ -1508,8 +1532,8 @@
       "source_relative_path": "obj/api/ExifLibrary.SensingMethod.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.SensingMethod.html",
-          "hash": "jcZgByORikQRYuiQ64R7Tg=="
+          "relative_path": "api/ExifLibrary.SensingMethod.html",
+          "hash": "rRRS+B/ZoxoZ6YFdPpvwgg=="
         }
       },
       "is_incremental": false,
@@ -1520,8 +1544,8 @@
       "source_relative_path": "obj/api/ExifLibrary.Severity.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.Severity.html",
-          "hash": "x7eco0h98lmI7LE5ze8YOQ=="
+          "relative_path": "api/ExifLibrary.Severity.html",
+          "hash": "yGjsokzmLegM6+NgGvsXsg=="
         }
       },
       "is_incremental": false,
@@ -1532,8 +1556,8 @@
       "source_relative_path": "obj/api/ExifLibrary.Sharpness.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.Sharpness.html",
-          "hash": "ujRyB8yf2YOh1IyqXkdAtQ=="
+          "relative_path": "api/ExifLibrary.Sharpness.html",
+          "hash": "g66lGWorJBvTY0HUcUSHdg=="
         }
       },
       "is_incremental": false,
@@ -1544,8 +1568,8 @@
       "source_relative_path": "obj/api/ExifLibrary.SubfileType.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.SubfileType.html",
-          "hash": "S5Nlb+3XsVX5pa6eNMXj0w=="
+          "relative_path": "api/ExifLibrary.SubfileType.html",
+          "hash": "+yKmhbJZAp7XoVHBvqKYOQ=="
         }
       },
       "is_incremental": false,
@@ -1556,8 +1580,8 @@
       "source_relative_path": "obj/api/ExifLibrary.SubjectDistanceRange.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.SubjectDistanceRange.html",
-          "hash": "y1RPW4guFeX6hfmgOQ0tqg=="
+          "relative_path": "api/ExifLibrary.SubjectDistanceRange.html",
+          "hash": "qgOdExYHnoPsQDlrIkRlEg=="
         }
       },
       "is_incremental": false,
@@ -1568,8 +1592,8 @@
       "source_relative_path": "obj/api/ExifLibrary.T4Options.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.T4Options.html",
-          "hash": "hQeTM9V3CjJ+rH5XercLoA=="
+          "relative_path": "api/ExifLibrary.T4Options.html",
+          "hash": "xOAfseGJ4P6e0qyD4AihZg=="
         }
       },
       "is_incremental": false,
@@ -1580,8 +1604,8 @@
       "source_relative_path": "obj/api/ExifLibrary.T6Options.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.T6Options.html",
-          "hash": "+ohK9C47vTl3NU2W2264iw=="
+          "relative_path": "api/ExifLibrary.T6Options.html",
+          "hash": "gfoh8aK01HSlZSVmsyjuRQ=="
         }
       },
       "is_incremental": false,
@@ -1592,8 +1616,8 @@
       "source_relative_path": "obj/api/ExifLibrary.TIFFFile.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.TIFFFile.html",
-          "hash": "v6K1+5uMWNgv0uRKt0oM3A=="
+          "relative_path": "api/ExifLibrary.TIFFFile.html",
+          "hash": "oJ9wcPu5SxEAMaNLKa+cOw=="
         }
       },
       "is_incremental": false,
@@ -1604,8 +1628,8 @@
       "source_relative_path": "obj/api/ExifLibrary.TIFFHeader.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.TIFFHeader.html",
-          "hash": "TrNlQUNsTelFnm4SrGFAbA=="
+          "relative_path": "api/ExifLibrary.TIFFHeader.html",
+          "hash": "LJOmPGSGLsCMV+g8vQ20ww=="
         }
       },
       "is_incremental": false,
@@ -1616,8 +1640,8 @@
       "source_relative_path": "obj/api/ExifLibrary.TIFFStrip.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.TIFFStrip.html",
-          "hash": "moyGg20EnBx3mtbzWkPpUA=="
+          "relative_path": "api/ExifLibrary.TIFFStrip.html",
+          "hash": "mh2Wtx9KCzXOxFvnnB7OLQ=="
         }
       },
       "is_incremental": false,
@@ -1628,8 +1652,8 @@
       "source_relative_path": "obj/api/ExifLibrary.Threshholding.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.Threshholding.html",
-          "hash": "XJ1DjnagzEUIMbfqyBsodQ=="
+          "relative_path": "api/ExifLibrary.Threshholding.html",
+          "hash": "pZz0Bz+z0XnnYhIlHRJGhw=="
         }
       },
       "is_incremental": false,
@@ -1640,8 +1664,8 @@
       "source_relative_path": "obj/api/ExifLibrary.UnknownEnumTypeException.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.UnknownEnumTypeException.html",
-          "hash": "hd+RsYECIvui1nFrBjQolg=="
+          "relative_path": "api/ExifLibrary.UnknownEnumTypeException.html",
+          "hash": "6tEOG3+w3pQTAAVSywShmA=="
         }
       },
       "is_incremental": false,
@@ -1652,8 +1676,8 @@
       "source_relative_path": "obj/api/ExifLibrary.UnknownIFDSectionException.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.UnknownIFDSectionException.html",
-          "hash": "ve0P4vm5/j56L+/2k1KLKw=="
+          "relative_path": "api/ExifLibrary.UnknownIFDSectionException.html",
+          "hash": "pU0phWMk93wpLSV262qGHg=="
         }
       },
       "is_incremental": false,
@@ -1664,8 +1688,8 @@
       "source_relative_path": "obj/api/ExifLibrary.UnknownImageFormatException.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.UnknownImageFormatException.html",
-          "hash": "tIRGNZ9WhXRP/m/xAiFW6g=="
+          "relative_path": "api/ExifLibrary.UnknownImageFormatException.html",
+          "hash": "duhkul06KUaaDa9LBhbsEA=="
         }
       },
       "is_incremental": false,
@@ -1676,8 +1700,8 @@
       "source_relative_path": "obj/api/ExifLibrary.Utility.CRC32.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.Utility.CRC32.html",
-          "hash": "iXZSG7fBBj6KCpEfnI3Rig=="
+          "relative_path": "api/ExifLibrary.Utility.CRC32.html",
+          "hash": "OYPI66wlHuKIh7eN2j7J5w=="
         }
       },
       "is_incremental": false,
@@ -1688,8 +1712,8 @@
       "source_relative_path": "obj/api/ExifLibrary.Utility.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.Utility.html",
-          "hash": "hsxuWPpgxVKz0OVMj5Nc5g=="
+          "relative_path": "api/ExifLibrary.Utility.html",
+          "hash": "afCHrVXMQhINAsBNiScPWQ=="
         }
       },
       "is_incremental": false,
@@ -1700,8 +1724,8 @@
       "source_relative_path": "obj/api/ExifLibrary.VersionID.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.VersionID.html",
-          "hash": "ZU2RzP9u6cXzW9bSM/vIGw=="
+          "relative_path": "api/ExifLibrary.VersionID.html",
+          "hash": "FoRkLTr5Qj7dCY/caGAjBQ=="
         }
       },
       "is_incremental": false,
@@ -1712,8 +1736,8 @@
       "source_relative_path": "obj/api/ExifLibrary.WhiteBalance.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.WhiteBalance.html",
-          "hash": "yZFheFH0RkTu6hTKtKRRog=="
+          "relative_path": "api/ExifLibrary.WhiteBalance.html",
+          "hash": "HOUzAF4GRMTu8O1zX1S0Qw=="
         }
       },
       "is_incremental": false,
@@ -1724,8 +1748,8 @@
       "source_relative_path": "obj/api/ExifLibrary.WindowsByteString.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.WindowsByteString.html",
-          "hash": "NMRLpSYMI7pGZHbIyoxhtA=="
+          "relative_path": "api/ExifLibrary.WindowsByteString.html",
+          "hash": "Jq/gvcwFssyhooekf7ReAQ=="
         }
       },
       "is_incremental": false,
@@ -1736,8 +1760,8 @@
       "source_relative_path": "obj/api/ExifLibrary.YCbCrPositioning.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.YCbCrPositioning.html",
-          "hash": "1HQwW2HwHn1xWS6WWGnJCA=="
+          "relative_path": "api/ExifLibrary.YCbCrPositioning.html",
+          "hash": "7jwOcLbLhYjrmUNxxb3DVg=="
         }
       },
       "is_incremental": false,
@@ -1748,30 +1772,20 @@
       "source_relative_path": "obj/api/ExifLibrary.yml",
       "output": {
         ".html": {
-          "relative_path": "obj/api/ExifLibrary.html",
-          "hash": "oVIGfcOcIdJyJgN5xKdGbg=="
+          "relative_path": "api/ExifLibrary.html",
+          "hash": "B8kJpXkindNP4YGty5WSAQ=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "resources/icons/favicon.ico",
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
       "output": {
-        "resource": {
-          "relative_path": "resources/icons/favicon.ico"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/icons/logo.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/icons/logo.png"
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "akkOlH8ncVCfFwpTSAAzkg=="
         }
       },
       "is_incremental": false,
@@ -1783,7 +1797,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "phoyMXObb10A7Hpkh7Mi2Q=="
+          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
         }
       },
       "is_incremental": false,
@@ -1794,30 +1808,23 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "details": "Cannot build incrementally because docfx version changed from 2.55.0.0 to 2.56.0.0.",
         "incrementalPhase": "build",
         "total_file_count": 0,
         "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "full_build_reason_code": "DocfxVersionChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 8,
+          "total_file_count": 10,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 138,
-          "skipped_file_count": 0
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 137,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
@@ -1831,8 +1838,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
