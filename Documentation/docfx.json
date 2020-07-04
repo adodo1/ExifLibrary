@@ -3,27 +3,66 @@
     {
       "src": [
         {
-          "files": "**.csproj",
-          "src": "../ExifLibrary"
+          "files": [
+            "*.csproj"
+          ],
+          "cwd": ".",
+          "exclude": [
+            "**/obj/**",
+            "**/bin/**",
+            "_site/**"
+          ]
         }
       ],
-      "filter": "filterConfig.yml",
       "dest": "obj/api"
     }
   ],
   "build": {
-    "content": [ "index.md", "combinedtoc/**", "toc.yml", "articles/**.yml", "articles/**.md", "obj/api/**.yml" ],
-    "resource": [ "resources/icons/**" ],
-    "overwrite": [ "overwrites/**.md" ],
-    "globalMetadata": {
-      "_appTitle": "ExifLibrary",
-      "_appFooter": "Copyright © 2019-2020 Warren Galyen",
-      "_appLogoPath": "resources/icons/logo.png",
-      "_appFaviconPath": "resources/icons/favicon.ico",
-      "_disableBreadcrumb": true,
-      "_disableAffix": true
-    },
+    "content": [
+      {
+        "files": [
+          "api/**.yml"
+        ],
+        "cwd": "obj"
+      },
+      {
+        "files": [
+          "api/*.md",
+          "articles/**.md",
+          "toc.yml",
+          "*.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
     "dest": "_site",
-    "template": [ "default" ]
+    "template": [
+      "default"
+    ]
   }
 }
